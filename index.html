@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <!-- Metadatos básicos -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Título y SEO básico -->
+  <title>Safra Jhon</title>
+  <meta name="description" content="Bienvenido a Safra. Soy Jhon, decoraciones, cortinas y demas.">
+  <meta name="keywords" content="Cortina, Pergolas, estampados, decoraciones, Jhon Safra">
+  <meta name="author" content="Emanuel Kek">
+  
+  <!-- Open Graph para compartir en redes -->
+  <meta property="og:title" content="Pagina Web de Jhon Decoraciones">
+  <meta property="og:description" content="Somos un conjunto de soluciones para decoración de interiores, tenemos una gran oferta de productos para decoradores, proyectos institucionales, comerciales y hogar..">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://pedidos.persianassafra.com/Themes/Pedidos/images/safra_logo_background_black.jpg"> <!-- reemplazar -->
+  <meta name="google-site-verification" content="fWSFLA_Jvc78UJBUaEyX5EDMhDHm-frcwbrHnOv_Stc" />
+  <!-- Favicon -->
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+  <!-- Vinculamos CSS -->
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+  <!-- Header con navegación principal -->
+  <header>
+    <div class="contenedor-header">
+          <!-- Logo -->
+      <div class="logo">
+          <img src="logo.ico" alt="Logo" />
+        </a>
+      </div>
+      <!-- Botón hamburguesa -->
+       <div>
+      <button class="menu-toggle" aria-label="Abrir menú">&#9776;</button>
+       </div>
+      <!-- Navegación -->
+      <nav class="menu-nav">
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#catalogo">Catálogo</a></li>
+          <li><a href="index2.html">Catálogo Expandido</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  
+
+  <!-- Main principal -->
+  <main>
+
+ <section class="carrusel">
+  <div class="carrusel-container">
+    <div class="slide active">
+      <img src="cortinaHanas.jpg" alt="Imagen 1">
+    </div>
+    <div class="slide">
+      <img src="panelJapones.jpg" alt="Imagen 2">
+    </div>
+    <div class="slide">
+      <img src="cortinasRoller.jpg" alt="Imagen 3">
+    </div>
+
+    <button class="prev" onclick="moverCarrusel(-1)">❮</button>
+    <button class="next" onclick="moverCarrusel(1)">❯</button>
+  </div>
+  </section>
+
+
+    <section id="catalogo">
+      <h2>Catálogo</h2>
+      <div class="galeria">
+        <div class="carta" onclick="this.classList.toggle('is-flipped')">
+          <div class="carta-inner">
+            <div class="carta-front" style="background-image: url('cortinaHanas.jpg');"></div>
+            <div class="carta-back"><p>El sistema Hanas se caracteriza por sus curvas uniformes en forma de S. Por su estilo, crea un ambiente con un estilo diferente y sofisticado. Su funcionalidad radica en sus franjas verticales opacas y traslúcidas que permiten controlar la privacidad. </p></div>
+          </div>
+        </div>
+        <div class="carta" onclick="this.classList.toggle('is-flipped')">
+          <div class="carta-inner">
+            <div class="carta-front" style="background-image: url('panelJapones.jpg');"></div>
+            <div class="carta-back"><p>El panel japonés está conformado por telas que se deslizan suavemente sobre un riel, con diferentes opciones de agrupamiento. Apropiado para grandes espacios, ventanas de techo a piso o puerta ventanas. Sistema modular da opción de crear combinaciones que dan personalidad y exclusividad al espacio. </p></div>
+          </div>
+        </div>
+        <div class="carta" onclick="this.classList.toggle('is-flipped')">
+          <div class="carta-inner">
+            <div class="carta-front" style="background-image: url('sheerScreenJaponica.jpg');"></div>
+            <div class="carta-back"><p>Sheer Screen Japonica: Este tipo de tela nos permite disfrutar la vista al exterior en el transcurso del día, controla el calor de afuera y otorga privacidad durante el día y noche.
+              Las telas Sheer se fabrican con franjas opacas y franjas traslúcidas.</p></div>
+          </div>
+        </div>
+        <div class="carta" onclick="this.classList.toggle('is-flipped')">
+          <div class="carta-inner">
+            <div class="carta-front" style="background-image: url('panelJaponesTelaRoman.jpg');"></div>
+            <div class="carta-back"><p>Tela Roman: La Persiana Romana tiene un diseño clásico y elegante, gracias a sus módulos horizontales plegables, que crean simetría y funcionalidad en su apertura o cierre.
+              Una opción ideal para ventanas medianas o pequeñas.</p></div>
+          </div>
+        </div>
+        <div class="carta" onclick="this.classList.toggle('is-flipped')">
+          <div class="carta-inner">
+            <div class="carta-front" style="background-image: url('estampadas.jpg');"></div>
+            <div class="carta-back"><p>Estampadas: Transforma tus espacios con nuestras persianas estampadas, ideales para darle un toque único y decorativo a cualquier ambiente. Diseños exclusivos que combinan estilo y funcionalidad</p></div>
+          </div>
+        </div>
+        <div class="carta" onclick="this.classList.toggle('is-flipped')">
+          <div class="carta-inner">
+            <div class="carta-front" style="background-image: url('cortinasRoller.jpg');"></div>
+            <div class="carta-back"><p>Sistema Vintage: El Sistema Vintage cuenta con un diseño clásico y elegante, gracias a sus lamas verticales plegables se crea simetría y funcionalidad en su apertura o cierre. Sistema ideal para puerta terrazas. </p></div>
+          </div>
+        </div>
+        <div class="carta" onclick="this.classList.toggle('is-flipped')">
+          <div class="carta-inner">
+            <div class="carta-front" style="background-image: url('pergola1.jpg');"></div>
+            <div class="carta-back"><p>Pergola: Descripcion: Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam cupiditate nemo harum tempore omnis ducimus, error iste natus consequatur similique aliquid accusantium necessitatibus suscipit esse dolorum vel unde eaque officiis?</p></div>
+          </div>
+        </div>
+        <div class="carta" onclick="this.classList.toggle('is-flipped')">
+          <div class="carta-inner">
+            <div class="carta-front" style="background-image: url('pergola2.jpg');"></div>
+            <div class="carta-back"><p>Pergola: Descripcion: Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error enim corporis totam rerum quam quo harum quod animi iure veritatis eum voluptate, aut vitae fugit facilis, magnam dolorum officia exercitationem!</p></div>
+          </div>
+        </div>
+        <div class="carta" onclick="this.classList.toggle('is-flipped')">
+          <div class="carta-inner">
+            <div class="carta-front" style="background-image: url('pergola3.jpg');"></div>
+            <div class="carta-back"><p>Pergola: Descripcion: Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium magni possimus atque sapiente esse enim ducimus delectus minus vel quidem, obcaecati debitis illum dolore minima. Quisquam dolore culpa temporibus at.</p></div>
+          </div>
+        </div>
+        <div class="carta" onclick="this.classList.toggle('is-flipped')">
+          <div class="carta-inner">
+            <div class="carta-front" style="background-image: url('PersianaRomana.jpg');"></div>
+            <div class="carta-back"><p>Producto: Descripcion: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem, cupiditate recusandae culpa obcaecati dolorem soluta ipsa dicta atque dolore iste facilis distinctio ipsum repudiandae quis. Commodi dolorum dolores optio earum!</p></div>
+          </div>
+        </div>
+        <div class="carta" onclick="this.classList.toggle('is-flipped')">
+          <div class="carta-inner">
+            <div class="carta-front" style="background-image: url('decoraciones.jpg');"></div>
+            <div class="carta-back"><p>Producto: Descripcion: Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, deserunt. Magni consectetur ut dolor eius asperiores est vero pariatur quibusdam, dignissimos sunt corrupti dolore, ullam, eos quisquam quasi eum. Inventore.</p></div>
+          </div>
+        </div>
+        <div class="carta" onclick="this.classList.toggle('is-flipped')">
+          <div class="carta-inner">
+            <div class="carta-front" style="background-image: url('cortinaHanas.jpg');"></div>
+            <div class="carta-back"><p>Cortinas Hanas:Descripcion: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis, tempore voluptatibus iste id praesentium libero eos earum excepturi, dolore a at ut rerum reprehenderit dolorum! Reprehenderit accusamus tempora illo natus.</p></div>
+          </div>
+        </div>
+      </div>
+      <div>
+    </section>
+
+    <section>
+      <a href="index2.html">
+        <button class="leer-mas-btn">¿Quieres leer más?</button>
+      </a>
+    
+    </section>
+
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Emanuel Kek</p>
+  </footer>
+
+  <!-- Vinculamos el JavaScript -->
+  <script src="main.js"></script>
+
+</body>
+</html>
